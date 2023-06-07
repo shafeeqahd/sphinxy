@@ -61,6 +61,7 @@ class Sphinx:
         else:
             raise IncorrectAnswer("Your answer was wrong. You shall not pass.")
 
+
 class QaCheck(ABC):
     """
     Base class for checks to be run on guidance and survey data

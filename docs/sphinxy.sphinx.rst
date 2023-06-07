@@ -5,3 +5,8 @@ sphinxy.sphinx module
    :members:
    :undoc-members:
    :show-inheritance:
+
+.. automodule:: sphinxy.Qacheck
+   :members:
+   :undoc-members:
+   :show-inheritance:
