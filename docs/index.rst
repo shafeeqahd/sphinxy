@@ -12,7 +12,7 @@ Welcome to Sphinx's documentation!
 
    modules
 
-The Egyptian Sphinx
+Novamera Software Development
 -------------------
 .. image:: _static/sphinx.png
 
