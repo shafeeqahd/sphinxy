@@ -19,26 +19,12 @@ class Sphinx:
         )
 
     def introduce(self) -> str:
-        """
-        This is a test script.
-
-        Returns:None
-
-        """
         return (
             f"Greetings, mortals. I am {self._name}. I have guarded the city of Thebes"
             "for centuries and posed riddles to those who dared to approach me."
         )
 
     def update_riddle(self, riddle: Riddle) -> str:
-        """
-        Testing if the updates are pulled.
-        Args:
-            riddle:
-
-        Returns:
-
-        """
         self._riddle = riddle
         return "I have updated my riddle. Are you ready to solve it?"
 
@@ -59,5 +45,4 @@ class Sphinx:
                 f"'{self._riddle.get_hint()}'."
             )
         else:
-            raise IncorrectAnswer("Your answer was wrong. You shall not pass.")
-
+            raise IncorrectAnswer("Your answer was wrong. You shall not pass."
