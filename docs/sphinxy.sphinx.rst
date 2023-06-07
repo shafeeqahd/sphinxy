@@ -1,7 +1,7 @@
 sphinxy.sphinx module
 =====================
 
-.. automodule:: sphinxy
+.. automodule:: sphinxy.sphinx
    :members:
    :undoc-members:
    :show-inheritance:
