@@ -1,12 +1,7 @@
 sphinxy.sphinx module
 =====================
 
-.. automodule:: sphinxy.sphinx
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-.. automodule:: sphinxy.Qacheck
+.. automodule:: sphinxy
    :members:
    :undoc-members:
    :show-inheritance:
