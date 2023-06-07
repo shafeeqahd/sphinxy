@@ -60,18 +60,3 @@ class Sphinx:
             )
         else:
             raise IncorrectAnswer("Your answer was wrong. You shall not pass.")
-
-class QaCheck(ABC):
-    """
-    Base class for checks to be run on guidance and survey data
-    """
-
-    def __init__(self, check_name: str):
-        self.check_name = check_name
-
-    @abstractmethod
-    def run_check(self, data: Any, **kwargs) -> bool:
-        """
-        Perform the check on the data object and return True if the check passes, False otherwise.
-        """
-        raise NotImplementedError
